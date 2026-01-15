@@ -1,4 +1,4 @@
-const yr2026 = [
+[
   { "no": 1, "name": "திரு. வே. சோழ வேந்தன்", "relation": "", "location": "", "amount": 701 },
   { "no": 2, "name": "திரு. செல்வராஜ்", "relation": "LVB", "location": "", "amount": 701 },
   { "no": 3, "name": "திரு. R. சேகர்", "relation": "", "location": "தகர கொட்டாய் தோட்டம்", "amount": 701 },
@@ -269,7 +269,6 @@ const yr2026 = [
   { "no": 234, "name": "திரு. காவேரி (ATC) சம்பத்", "relation": "", "location": "", "amount": 701 },
   { "no": 235, "name": "திரு. சேகர்", "relation": "", "location": "கூட்டாளி தோட்டம்", "amount": 701 },
   { "no": 236, "name": "திரு. கண்ணன் நந்தினி", "relation": "", "location": "தார்காடு", "amount": 701 },
-  { "no": 237, "name": "திரு. வெங்கடாஜலம்", "relation": "", "location": "தார்காடு", "amount": 701 },
   { "no": 237, "name": "மாஸ்டர் விஷ்ணுபிரியர்", "relation": "S/o CR. கண்ணன்", "location": "தாழ்வாச்சி தோட்டம்", "amount": 701 },
   { "no": 238, "name": "திரு. வினோத்", "relation": "", "location": "நரியக்கவுண்டர் தோட்டம்", "amount": 701 },
   { "no": 239, "name": "மாராயிஅம்மாள்", "relation": "", "location": "மணக்காடு தோட்டம்", "amount": 1001 },
@@ -325,20 +324,29 @@ const yr2026 = [
   { "no": 287, "name": "திரு நந்தகுமார்", "relation": "S/o கணேசன்", "location": "நத்தமேட்டார் தோட்டம்", "amount": 701 },
 
 
+  { "no": 288, "name": "திரு. பழனிவேல்", "relation": "S/o மாரப்ப கவுண்டர்", "location": "குச்சி பொருக்கி தோட்டம்", "amount": 705 },
+  { "no": 289, "name": "சுஜய்", "relation": "S/o அருள் ஜோதி (மயில் / சுதா)", "location": "பூசாரி தோட்டம்", "amount": 701 },
+  { "no": 290, "name": "திரு. கோகுல்", "relation": "S/o ரவி", "location": "காக்காச்சி தோட்டம்", "amount": 701 },
+  { "no": 291, "name": "மாஸ்டர் ஜீவசங்கர்", "relation": "S/o ராஜா", "location": "பேக்காட்டர் தோட்டம்", "amount": 701 },
+  { "no": 292, "name": "திரு. தர்சன், பாரி", "relation": "", "location": "வவுரி தோட்டம்", "amount": 701 },
+  { "no": 293, "name": "பேபி சுஜா", "relation": "D/o ராஜமணி", "location": "காக்காச்சி தோட்டம்", "amount": 701 },
+  { "no": 294, "name": "திரு. நிஷாந்த்", "relation": "S/o முத்து கவுண்டர்", "location": "சுடுகாட்டர் தோட்டம்", "amount": 702 },
+  { "no": 295, "name": "திரு. நவின்", "relation": "S/o ஜெகதிசன்", "location": "நவின் பவுல்டரி பார்ம், புதன்சந்தை", "amount": 701 },
+  { "no": 296, "name": "திரு. சுப்பிரமணி (LIC)", "relation": "S/o செங்கோடக்கவுண்டர்", "location": "காணம்பாளையத்தார் தோட்டம்", "amount": 705 },
+  { "no": 297, "name": "திரு. சின்னமணி பிரியா", "relation": "", "location": "உழக்கன் தோட்டம்", "amount": 701 },
+  { "no": 298, "name": "லச்சுமி", "relation": "", "location": "கருஞ்சி தோட்டம்", "amount": 200 },
+  { "no": 299, "name": "திரு. சிவக்குமார்", "relation": "S/o பொன்னுசாமி", "location": "வயக்காடு", "amount": 700 },
+  { "no": 300, "name": "திரு. துரைவிமல்", "relation": "S/o துரைசாமி", "location": "குண்டன் வீடு", "amount": 701 },
+  { "no": 301, "name": "திரு. மணிகண்டன்", "relation": "S/o பழனியப்பன்", "location": "மேட்டுக் காட்டார் தோட்டம்", "amount": 701 },
+  { "no": 302, "name": "திரு. கோகுல்சங்கர்", "relation": "S/o முத்துசாமி கவுண்டர்", "location": "கருமன் தோட்டம்", "amount": 701 },
+  { "no": 303, "name": "திரு. முத்துகுமார்", "relation": "S/o பொன்மலை கவுண்டர்", "location": "சடக்கன் தோட்டம்", "amount": 701 },
+  { "no": 304, "name": "திரு. கோபிநாத் (PRG)", "relation": "S/o அரங்கசாமி", "location": "தோட்டக்காடு", "amount": 700 },
+  { "no": 305, "name": "திரு. அகிழன் (PRG)", "relation": "S/o கோபிநாத்", "location": "தோட்டக்காடு", "amount": 700 },
+  { "no": 306, "name": "திரு. தியாகராஜன்", "relation": "", "location": "வவுரி தோட்டம்", "amount": 701 },
+  { "no": 307, "name": "திரு. சிவக்குமார்", "relation": "", "location": "காணாம் பளத்தார் தோட்டம்", "amount": 701 },
+  { "no": 308, "name": "திரு. பிரவீன்", "relation": "", "location": "கிழங்கு பட்டியார் தோட்டம்", "amount": 701 },
+  { "no": 309, "name": "மணி", "relation": "", "location": "காக்காவேரியார் தோட்டம்", "amount": 701 },
+  { "no": 310, "name": "கவிதா கிருஷ்ணன்", "relation": "", "location": "வினையத்தார் தோட்டம்", "amount": 505 },
+  { "no": 311, "name": "திரு. ஆடிட்டர் சுப்பிரமணி", "relation": "", "location": "அவரைக்கொட்டையார் தோட்டம்", "amount": 700 },
 
-
-  // { "no": 288, "name": "", "relation": "", "location": "", "amount": 701 },
-  // { "no": 289, "name": "", "relation": "", "location": "", "amount": 701 },
-  // { "no": 290, "name": "", "relation": "", "location": "", "amount": 701 },
-  // { "no": 291, "name": "", "relation": "", "location": "", "amount": 701 },
-  // { "no": 292, "name": "", "relation": "", "location": "", "amount": 701 },
-  // { "no": 293, "name": "", "relation": "", "location": "", "amount": 701 },
-  // { "no": 294, "name": "", "relation": "", "location": "", "amount": 701 },
-  // { "no": 295, "name": "", "relation": "", "location": "", "amount": 701 },
-  // { "no": 296, "name": "", "relation": "", "location": "", "amount": 701 },
-  // { "no": 297, "name": "", "relation": "", "location": "", "amount": 701 },
-  // { "no": 298, "name": "", "relation": "", "location": "", "amount": 701 },
-  // { "no": 299, "name": "", "relation": "", "location": "", "amount": 701 },
-  // { "no": 300, "name": "", "relation": "", "location": "", "amount": 701 },
-
-];
+]
